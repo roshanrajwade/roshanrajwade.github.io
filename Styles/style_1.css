@@ -1,0 +1,158 @@
+/*  Add Styles Here*/
+htim{
+    scroll-behavior : smooth;
+}
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+/*----------SideBar---------*/
+.sidebar{
+    background-color: black;
+    float: right;
+    width: 250px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    box-shadow: 0 0 15px black;
+}
+.sidebar ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.sidebar ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 16px 25px;
+    display: block;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.sidebar ul li a:hover{
+    color: #ff8800;
+}
+.sidebar img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 7px solid darkgray;
+    box-shadow: 0 0 15px white;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+/*--------------About Section-------------*/
+#about-section{
+    margin-left: 250px;
+    padding: 20px;
+}
+.about-article h1{
+    font-family: "Fjalla One",sans-serif;
+    font-size: 70px;
+    text-shadow: 0 0 15px black;
+    margin: 120px 0 0 0;
+}
+.about-article .fname{
+    color: orangered;
+}
+.about-article .mname{
+    color: #343a40;
+}
+.about-article .lname{
+    color: orange;
+}
+.about-article h2{
+    font-family: Nunito,sans-serif;
+    font-size: 35px;
+    margin-top: 0;
+}
+.about-article p{
+    font-size: 20px;
+    color: #818283;
+}
+
+/*--------------Experience Section--------i-------*/
+#exp-section{
+    margin: 150px 0 200px 300px;
+    padding: 20px;
+}
+.main-heading{
+    font-family: "Exo 2", sans-serif;
+    font-size: 50px;
+    text-shadow: 0 0 5px black;
+}
+.exp-article{
+    width: 300px;
+    display: inline-block;
+    padding: 10px;
+}
+.exp-article h3{
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
+}
+.exp-article p{
+    font-size: 20px;
+    color: #818283;
+    text-align: justify;
+}
+.exp-button{
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    font-family: 'Anton', sans-serif;
+    padding: 10px 25px;
+    border-radius: 50px;
+}
+.exp-button:hover{
+    background-color: #342012;
+    cursor: pointer;
+}
+
+/*----------------- Education Section --------------------*/
+
+#education-section{
+    margin: 150px 0 200px 300px;
+    padding: 20px;
+}
+.edu-article{
+    background-color: #343a40;
+    color: white;
+    padding: 10px;
+    margin: 15px;
+    border: 5px solid white;
+    box-shadow: 0 0 5px #343a40;
+}
+.edu-article h3{
+    font-family: 'Lobster' ,cursive;
+    font-size: 20px;
+}
+.edu-article p{
+    font-size: 20px;
+}
+/*----------------Skills Section-------------*/
+#skills-section{
+    margin-left: 300px;
+    padding: 20px;
+}
+.skills-article{
+    background-color: #e6e7e2;
+    border: 5px solid #deac8c;
+    padding: 10px;
+    margin: 15px;
+}
+.skills-article h3{
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    color: #bd5d38;
+}
+.skills-article .fab{
+    color: black;
+    padding: 0 20px 0 20px;
+}
+.skills-article .fab:hover{
+    color: #bd5d38;
+}
